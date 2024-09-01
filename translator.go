@@ -15,8 +15,6 @@ var ErrArgumentsNotAlphanumeric = errors.New("the supplied arguments are not Alp
 var ErrArgumentsNotBrailleOrAlphanumeric = errors.New("the supplied arguments are not Alphanumeric or Braille")
 var ErrTokenNotBraille = errors.New("invalid braille alphabet token")
 
-// var ErrArgumentsNotBraille = errors.New("expected Braille input: the supplied arguments do not match Braille format")
-
 type Translator struct {
 	text               string
 	letterToBrailleMap map[string]string
