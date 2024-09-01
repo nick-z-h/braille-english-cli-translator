@@ -1,5 +1,7 @@
 # Braille-English Translator
 
+Shopify ENG Challenge
+
 ## Description
 
 Created a Braille-English CLI translator using Go that automatically detects the input language (Braille or English) and converts it to the appropriate opposite language.
