@@ -9,11 +9,6 @@ import (
 	"unicode"
 )
 
-/*
-Assumptions:
-Braille must strictly consist of 'O's and '.'s. So if a text input contains a space character, it is not braille
-*/
-
 var ErrMissingArguments = errors.New("missing required cli arguments")
 var ErrArgumentsNotBraille = errors.New("the supplied arguments do not match Braille format")
 var ErrArgumentsNotAlphanumeric = errors.New("the supplied arguments are not Alphanumeric")
