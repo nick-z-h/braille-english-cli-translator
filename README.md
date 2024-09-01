@@ -53,5 +53,3 @@ Only numbers are valid input when "number follows" is active; otherwise, an erro
 #### English to Braille:
 
 When 'number follows' is active, and a letter is a current character, 'number follows' becomes inactive, and a space character is added to the result string, such that it precedes the current character.
-
-> > > > > > > refs/remotes/origin/main
